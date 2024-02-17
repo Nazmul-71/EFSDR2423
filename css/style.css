@@ -1,0 +1,511 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1746px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ /*-----------navbar sdtart-----------*/
+ #navbar nav{
+    box-shadow: 0px 5.333px 80px 0px rgba(0, 0, 0, 0.10);
+    padding: 25px o;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
+ .Navlogo{
+     width: 186px;
+ }
+ .navBarLInk{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #1c1e53;
+ }
+ .navBarLInk:hover{
+    color: #5e3bee;
+ }
+ nav ul li{
+    margin-left: 42px;
+ }
+ .active{
+    color: #5e3bee !important;
+ }
+ .navButton{
+    border: none;
+    background: transparent;
+    padding: 18px 30px;
+    border: 1px solid #5e3bee;
+    border-radius: 5px;
+    color: #5e3bee;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    transition: .4s;
+ }
+ .navButton:hover{
+    background: #5e3bee;
+    color: #ffffff;
+ }
+ /*-----------navbar end-----------*/
+ /*-----------banner/hero start-----------*/
+ #banner{
+    background: #f5fcff;
+    padding-top: 119px;
+    padding-bottom: 132px;
+ }
+#banner .text_area h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938;
+}
+#banner .text_area h1{
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #282938;
+    margin-top: 21px;
+}
+#banner .text_area h1 span{
+    color: #5e3bee;
+}
+#banner .text_area p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #1C1E53;
+    margin-top: 21px;
+}
+#banner .text_area a{
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #5e3bee;
+    text-decoration: none;
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin-top: 53px; 
+    display: inline-block;
+    border: 1px solid transparent ;
+}
+#banner .text_area a:hover{
+    background: transparent;
+    color: #5e3bee;
+    border: 1px solid #5e3bee ;
+}
+#banner img{
+   width: 100%;
+}
+ /*-----------banner/hero end-----------*/
+ /*-----------skill start-----------*/
+ #skill{
+    margin-top: 148px;
+    margin-bottom: 101px;
+ }
+ #skill .title{
+    margin-bottom: 106px;
+ }
+ #skill .title h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938;
+ }
+ #skill .title h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #282938;
+    margin-top: 21px;
+ }
+ .skillImg{
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ }
+ .skillImg img{
+    width: 53px;
+ }
+ .skill_item{
+    background: #F5FCFF;
+    padding: 32px;
+    border-radius: 10px;
+    border-bottom: 4px solid transparent;
+ }
+ .skill_item:hover{
+    border-bottom: 4px solid #5e3bee;
+ }
+ .skill_title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 140%;
+    color: #282938;
+    margin-top: 32px;
+ }
+ .skill_text{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #1C1E53;
+    margin-top: 21px;
+ }
+ /*-----------skill end-----------*/
+  /*-----------about me start-----------*/
+  #about_me{
+    background: #FFFFFF;
+  }
+  .image{
+    width: 100%;
+    margin-top: 133px;
+    margin-bottom: 133px;
+  }
+  #about_me h5{
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 150%;
+    color: #282938;
+    margin-bottom: 10px;
+    margin-top: 430px;
+  }
+  #about_me h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #282938;
+    margin-bottom: 32px;
+  }
+  #about_me p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #1C1E53;
+    margin-bottom: 30px;
+
+  }
+   /*-----------about me end end-----------*/
+    /*-----------protfolio start-----------*/
+    #protfolio{
+        background: #ECFFFD;
+        
+    }
+    #protfolio .upper{
+        padding-top: 74px;
+        margin-bottom: 106px;
+
+    }
+    #protfolio h5{
+        font-weight: 600;
+        font-size: 21.33px;
+        line-height: 150%;
+        color: #282938;
+       
+    }
+    #protfolio h2{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 120%;
+        color: #282938;
+        margin-top: 21px;
+    }
+    #protfolio button{
+        background: #E62872;
+        padding: 21px;
+        border-radius: 10px;
+        
+        border: 1px solid transparent;
+        margin-top: 27px;
+    }
+    #protfolio .hover:hover{
+      background: transparent;
+      border: 1px solid #5E3BEE;
+    }
+    #protfolio button a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-left: 16px;
+        
+    }
+   
+    
+    #protfolio .lower{
+        padding-bottom: 149px;
+    }
+    #protfolio .lower h5{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 140%;
+        color: #282938;
+    }
+    
+    #protfolio .tomtom{
+        margin-left: 16px;
+        
+    }
+    #protfolio .card-body a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17px;
+        border-bottom: 1px solid #5E3BEE;
+        padding-bottom: 10px;
+        color: #282938;
+
+    }
+    #protfolio .nazmul{
+        padding-left: 32px;
+    }
+     /*-----------protfolio end-----------*/
+     /*-----------Customer testimonials start-----------*/
+     #Customertestimonials{
+        background: #F5FCFF;
+     }
+     #Customertestimonials h6{
+        color: #282938;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 150%;
+        margin-top: 12px;
+        padding-top: 149px;
+        padding-bottom: 21px;
+     }
+     #Customertestimonials h2{
+        color: #282938;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 120%;
+        color: #282938;
+        padding-bottom: 106px;
+     }
+     #Customertestimonials .design{
+        padding: 42px;
+        border: 1px solid #006B6A;
+        border-radius: 5px;
+     }
+     #Customertestimonials .design img{
+        width: 154px;
+        height: 25px;
+        margin-bottom: 42px;
+    }
+    #Customertestimonials .design p{
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 48px;
+    }
+    #Customertestimonials .minidiv{
+        display: flex;
+        height: 74px;
+    }
+    #Customertestimonials .minidiv .man{
+        height: 74px;
+        width: 74px;
+        margin-right: 21px;
+    }
+    #Customertestimonials .minidiv .namediv h5{
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 150%;
+    }
+    #Customertestimonials .minidiv .namediv h4{
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    #Customertestimonials .row{
+        padding-bottom: 149px;
+    }
+     /*-----------Customer testimonials end-----------*/
+     /*-----------Contact start-----------*/
+     #contact{
+        margin-top: 48px;
+        background: #ECFFFD;
+        padding-bottom: 149px;
+        
+     }
+     .contact_title{
+        text-align: center;
+     }
+     .contact_title h4{
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #1c1e53;
+        padding-top: 149px;
+     }
+     .contact_title h2{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 120%;
+        color: #282938;
+     }
+     .contact_title p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #1C1E53;
+        margin-top: 21px;
+        margin-bottom: 64px;
+     }
+     #contact label{
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #1C1E53;
+     }
+     #contact .jhamela{ 
+        width: 100%;
+        border-color: #5e3bee;
+        height: 64px;
+        border-radius: 8px;
+        margin-top: 10px;
+     }
+     .emailBox{
+        margin-top: 32px;
+     }
+     #contact .tomtom{
+        width: 100%;
+        border-color: #5e3bee;
+        height: 64px;
+        border-radius: 8px;
+        margin-top: 10px;
+     }
+     #contact .label{
+        margin-top: 32px;
+     }
+     .messageBox textarea{
+        width: 100%;
+        border-color: #5e3bee;
+        border-radius: 8px;
+
+     }
+     .messageBox label{
+        margin-top: 32px;
+     }
+    #contact .checkbox #vehicle1{
+        height: 21px;
+        width: 21px;
+        color: #FFFFFF;
+        border: .5px solid #5e3bee;
+        border-radius: 10px;
+        border-color: #5e3bee;
+        margin-right: 10px;
+        margin-top: 32px;
+        
+    }
+    #contact .text_area{
+        display: flex;
+        justify-content: center;
+    }
+    #contact .text_area button{
+        color: #ffffff;
+        background: #5e3bee;
+        width: 170px;
+        height: 70px;
+        border: 1px solid transparent ;
+        border-radius: 5px;
+        margin-top: 32px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+        
+        
+        
+    }
+    #contact .text_area button:hover{
+        background: transparent;
+        color: #5e3bee;
+        border: 1px solid #5e3bee ;
+    }
+     /*-----------contact end-----------*/
+     /*-----------footer start-----------*/
+     #footerstart{
+      background: #F5FCFF;
+      padding-top: 106px;
+      padding-bottom: 160px;
+      
+     }
+   #footerstart .logopart{
+      display: flex;
+      justify-content: space-between;
+      padding: 31px 0;
+   }
+   #footerstart .logopart ul{
+      list-style: none;
+   }
+   #footerstart .logopart ul li{
+      display: inline-block;
+      
+   }
+   #footerstart .logopart ul li a{
+      text-decoration: none;
+      color: #000000;
+   }
+   #footerstart .menu li{
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 150%;
+      padding-left: 42px;
+   }
+   #footerstart .photo li{
+      width: 13px;
+      height: 24px;
+      margin-left: 16px;
+   }
+   #footerstart .logopart img{
+      width: 177px;
+      height: 40px;
+   }
+   #footerstart .lastpart{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 106px;
+      border-top: 1px solid #5e3bee;
+      padding-top: 42px;
+   }
+   #footerstart .lastpart ul{
+      list-style: none;
+   }
+   #footerstart .lastpart ul li a{
+      text-decoration: none;
+      color: #000000;
+   }
+   #footerstart .lastpart ul li{
+      display: inline-block;
+      
+   }
+   #footerstart .lastpart ul li a{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      color: #000000;
+      margin-left: 32px;
+   }
+   #footerstart .lastpart h4{
+      width: 213px;
+      height: 28px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+   }
+   /*-----------footer end-----------*/
+   /*-----------last blank-----------*/
+   .blank{
+      height: 80px;
+      background: #ffffff;
+   }
+
